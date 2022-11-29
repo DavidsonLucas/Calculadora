@@ -1,0 +1,82 @@
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: url("../asset/galaxxy-idols-bg-the-lounge-by-nanocanyon-on-newgrounds-pixel-art-background-cool-pixel-art-anime-pixel-art.gif");
+}
+
+
+div{
+    
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 39px;
+    width: 375px;
+    height: 568px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    padding: 20px;
+    border: 2px solid #4bdff1;
+    box-shadow: 0 0 60px #4bdff1;
+}
+
+input{
+    /* background: #17181a; */
+    background: transparent;
+    font-size: 48px;
+    grid-column: 1/5;
+    grid-row: 1/3;
+    border: none;
+    outline: none;
+    text-align: right;
+    padding-top: 50px;
+    color: antiquewhite;
+}
+
+button{
+    font-size: 24px;
+    border-radius:16px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover{
+    opacity: .8;
+
+}
+
+button:active{
+    opacity: .6;
+}
+
+.black-button{
+    background: #23bd9b;
+
+}
+.blue-button{
+    background: #0e5c03;
+}
+
+.equal-button{
+    background: #861203;
+}
+
+.gray-button{
+    background: #040d86;
+}
+
+.zero{
+    grid-column: 1/3;
+
+}
+
+.igual{
+    grid-row: 6/8;
+    grid-column: 4/5;
+}
