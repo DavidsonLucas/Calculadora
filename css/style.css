@@ -33,12 +33,12 @@ input{
     border: none;
     outline: none;
     text-align: right;
-    padding-top: 50px;
+    padding-top: 30px;
     color: antiquewhite;
 }
 
 button{
-    font-size: 24px;
+    font-size: 25px;
     border-radius:16px;
     border: none;
     margin: 10px;
